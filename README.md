@@ -1,4 +1,4 @@
-# ReduxSimpleStarter
+# ReduxSimpleStarter - weather cast sample
 
 Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 
@@ -6,20 +6,13 @@ Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 
 There are two methods for getting started with this repo.
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
 ```
 > npm install
 > npm start
+```
+###If you find the program not working, it may due to the broken code in react-spark package. Please uninstall the react-spark package and re-install it with 1.6.0 version
+
+```
+> npm uninstall --save react-sparklines
+> npm i --save react-sparklines@1.6.0
 ```
